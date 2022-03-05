@@ -147,7 +147,7 @@ header{
             .imagen_pastelSabores{
                 width: 100%;
                 height: 70%;
-                /* background-color: brown; */
+                overflow: hidden;
             }
 
             .contenedor_sabores_pasteles>p{
@@ -177,6 +177,8 @@ header{
         border-style: none;
         margin-top: 5px;
         margin-bottom: 5px;
+        padding: 5px;
+        box-sizing: border-box;
     }
 
     .text_area{
