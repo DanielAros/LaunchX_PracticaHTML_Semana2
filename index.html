@@ -27,7 +27,7 @@
                     <a href="#decoracion">Adornos</a>
                 </li>
                 <li>
-                    <a href="#sabores">Pedido</a>
+                    <a href="#seccion_pedido">Pedido</a>
                 </li>
             </ul>
         </nav>
@@ -93,6 +93,7 @@
             </div>
         </div>
     </section>
+
     <section class="section_sabores" id="decoracion">
         <h2>Decoraciones</h2>
         <hr>
@@ -141,5 +142,73 @@
             </div>
         </div>
     </section>
+    
+    <section class="section_sabores" id="seccion_pedido">
+        <form action="" id="pedido">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" id="nombre" class="input_datos"><br>
+            <label for="telefono">Teléfono:</label><br>
+            <input type="number" name="telefono" id="telefono" class="input_datos"><br>
+            <label for="correo_electronico">Correo Electrónico</label><br>
+            <input type="email" name="correo_electronico" id="correo_electronico" class="input_datos"><br>
+            <label for="descripcion">Descripción del pastel</label><br>
+            <textarea name="descripcion" id="descripcion" cols="auto" rows="5" class="text_area"></textarea><br>
+            
+            <br>
+            
+            <div class="contenedor_checkbox" id="estilo_borde">
+                <h3>Sabor a Elegir:</h3>
+                <div class="columnnas_checkbox">
+                    <input type="checkbox" name="chocolate" id="chocolate">
+                    <label for="chocolate">Chocolate</label><br>
+                    <input type="checkbox" name="naranja" id="naranja">
+                    <label for="naranja">Naranja</label><br>
+                    <input type="checkbox" name="almendras" id="almendras">
+                    <label for="almendras">Almendras</label><br>
+                    <input type="checkbox" name="mermelada" id="mermelada">
+                    <label for="mermelada">Mermelada</label><br>
+                </div>
+                <div class="columnnas_checkbox">
+                    <input type="checkbox" name="fresa" id="fresa">
+                    <label for="fresa">Fresa</label><br>
+                    <input type="checkbox" name="chocolate_blanco" id="chocolate_blanco">
+                    <label for="chocolate_blanco">Chocolate Blanco</label><br>
+                    <input type="checkbox" name="limon" id="limon">
+                    <label for="limon">Limón</label><br>
+                    <input type="checkbox" name="vainilla" id="vainilla">
+                    <label for="vainilla">Vainilla</label>
+                </div>
+            </div>
+
+            <div class="contenedor_checkbox">
+                <h3>Decoracion a Elegir:</h3>
+                <div class="columnnas_checkbox">
+                    <input type="checkbox" name="glaseado" id="glaseado">
+                    <label for="glaseado">Glaseado</label><br>
+                    <input type="checkbox" name="chantilly" id="chantilly">
+                    <label for="chantilly">Chantilly</label><br>
+                    <input type="checkbox" name="con_frutas" id="con_frutas">
+                    <label for="con_frutas">Con Frutas</label><br>
+                    <input type="checkbox" name="caramelos" id="caramelos">
+                    <label for="caramelos">Caramelos</label><br>
+                </div>
+                <div class="columnnas_checkbox">
+                    <input type="checkbox" name="merengue" id="merengue">
+                    <label for="merengue">Merengue</label><br>
+                    <input type="checkbox" name="chocolate_fundido" id="chocolate_fundido">
+                    <label for="chocolate_fundido">Chocolate Fundido</label><br>
+                    <input type="checkbox" name="frutos_secos" id="frutos_secos">
+                    <label for="frutos_secos">Frutos Secos</label><br>
+                    <input type="checkbox" name="espolvoreado" id="espolvoreado">
+                    <label for="espolvoreado">Espolvoreado</label>
+                </div>
+            </div>
+            <br>
+            <a href="#pedido">
+                <button id="boton_pedido" onclick="alert('Se a realizado tu pedido')">Realizar Pedido</button>
+            </a>
+        </form> 
+    </section>
+    
 </body>
 </html>
