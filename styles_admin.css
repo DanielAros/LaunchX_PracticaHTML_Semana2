@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* background: #04AA6D; */
 }
 
 header{
@@ -24,7 +23,9 @@ header{
     .logo{
         width: 40px;
         height: 40px;
-        background-color: aqua;
+        background-image: url(./img/logo.png);
+        background-size: cover;
+        border-radius: 50px;
         margin-right: 10px;
         margin-left: 6px;
     }
@@ -39,13 +40,10 @@ header{
     
     .contenedor-tabla{
         width: 80%;
-        /* height: 500px; */
-        /* background: rgba(255, 255, 255, 0.62); */
         border-radius: 10px;
     }
         #pedidos{
             width: 100%;
-            /* background-color: coral; */
             border-collapse: collapse;
         }
 
@@ -74,7 +72,6 @@ header{
 
 .ingredientes{
     width: 100%;
-    /* height: 570px; */
     background-color: #F0F2F5;
     padding: 30px;
     box-sizing: border-box;
